@@ -53,11 +53,6 @@ public class LoginForm extends JDialog{
     private User getAuthenticatedUser(String email, String password) {
         User user = null;
 
-        // final String DB_URL = ;
-        // final String USERNAME = ;
-        // final String PASSWORD = ;
-
-
         try{
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3307/mystore", "dbuser", "password");
 
